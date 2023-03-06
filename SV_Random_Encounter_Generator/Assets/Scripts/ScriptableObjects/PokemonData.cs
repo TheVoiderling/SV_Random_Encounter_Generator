@@ -32,7 +32,6 @@ class CustomDisplay : Editor
         iconSection.width = Screen.width / 3;
         iconSection.height = iconSection.width;
 
-
         GUILayout.BeginHorizontal();
         GUILayout.Label("Name: ");
         pokemonData.pokemonName = EditorGUILayout.TextField(pokemonData.pokemonName);
@@ -49,6 +48,10 @@ class CustomDisplay : Editor
             if(pokemonData.icon == null)
             {
                 pokemonData.icon = Resources.Load<Texture2D>("Sprites/Big/pm" + pokemonData.formattedPokedexNumber + "_11_00_00_big");
+            }
+            if (pokemonData.icon == null)
+            {
+                pokemonData.icon = iconTexture;
             }
         }
         GUILayout.EndHorizontal();
@@ -74,15 +77,10 @@ class CustomDisplay : Editor
         }
 
         GUILayout.BeginHorizontal();
-        if (pokemonData.icon == null)
-        {
-            GUI.DrawTexture(iconSection, iconTexture);
-        }
-        else
-        {
-            GUI.DrawTexture(iconSection, pokemonData.icon);
-        }
+        GUI.DrawTexture(iconSection, pokemonData.icon);
         GUILayout.EndHorizontal();
+
+        EditorGUIUtility.SetIconForObject(pokemonData, pokemonData.icon);
     }
 }
 #endif
