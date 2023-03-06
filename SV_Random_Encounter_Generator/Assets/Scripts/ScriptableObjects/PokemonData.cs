@@ -82,5 +82,6 @@ class CustomDisplay : Editor
 
         EditorGUIUtility.SetIconForObject(pokemonData, pokemonData.icon);
     }
+
 }
 #endif

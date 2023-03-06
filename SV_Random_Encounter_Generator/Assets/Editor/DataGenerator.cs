@@ -9,6 +9,7 @@ using UnityEditor;
 public class DataGenerator
 {
     private static string _dataCSVPath = "/Editor/CSVs/Pokemon SV Data - Data.csv";
+    private static int numberOfColloums = 9;
 
     [MenuItem("Utilities/Generate Enemies")]
     public static void GenerateDataObjects()
@@ -24,7 +25,7 @@ public class DataGenerator
             else
             {
                 string[] splitData = s.Split(',');
-                if (splitData.Length != 5)
+                if (splitData.Length != numberOfColloums)
                 {
                     Debug.Log(s + " has formatting errors");
                     return;
@@ -39,7 +40,7 @@ public class DataGenerator
                     pokemon.isMonoType = true;
                 }
                 pokemon.evoChainNumder = int.Parse(splitData[4]);
-
+                FindIcon(pokemon);
                 AssetDatabase.CreateAsset(pokemon, $"Assets/PokemonData/{pokemon.pokemonName}.asset");
             }
         }
@@ -139,5 +140,19 @@ public class DataGenerator
         }
 
         return PokemonType.NONE;
+    }
+
+    public static void FindIcon(PokemonData pokemonData)
+    {
+        pokemonData.formattedPokedexNumber = pokemonData.pokedexNumber.ToString("0000");
+        pokemonData.icon = Resources.Load<Texture2D>("Sprites/Big/pm" + pokemonData.formattedPokedexNumber + "_00_00_00_big");
+        if (pokemonData.icon == null)
+        {
+            pokemonData.icon = Resources.Load<Texture2D>("Sprites/Big/pm" + pokemonData.formattedPokedexNumber + "_11_00_00_big");
+        }
+        if (pokemonData.icon == null)
+        {
+            pokemonData.icon = Resources.Load<Texture2D>("Sprites/Big/pm0000_00_00_00_big");
+        }
     }
 }
