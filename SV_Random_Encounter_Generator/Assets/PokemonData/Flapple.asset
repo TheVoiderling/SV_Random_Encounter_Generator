@@ -16,7 +16,7 @@ MonoBehaviour:
   pokedexNumber: 841
   evoChainNumder: 186
   formattedPokedexNumber: 0841
-  isMonoType: 1
-  type1: 9
-  type2: 0
+  isMonoType: 0
+  type1: 10
+  type2: 3
   icon: {fileID: 2800000, guid: 65a45b692e6bde74c8cbde88cfd0f199, type: 3}

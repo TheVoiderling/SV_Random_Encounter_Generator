@@ -7,6 +7,7 @@ public enum PokemonType
     NONE = 0,
     BUG,
     DARK,
+    DRAGON,
     ELECTRIC,
     FAIRY,
     FIGHTING,

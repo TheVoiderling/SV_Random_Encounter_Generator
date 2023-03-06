@@ -17,6 +17,6 @@ MonoBehaviour:
   evoChainNumder: 220
   formattedPokedexNumber: 0929
   isMonoType: 0
-  type1: 9
-  type2: 12
-  icon: {fileID: 2800000, guid: bfdc3ec480409b24e93536653de6ece9, type: 3}
+  type1: 10
+  type2: 13
+  icon: {fileID: 2800000, guid: 6f0626b04501a2c46bf2b7e50bff202f, type: 3}

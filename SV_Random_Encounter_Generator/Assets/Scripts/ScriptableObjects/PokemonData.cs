@@ -79,8 +79,6 @@ class CustomDisplay : Editor
         GUILayout.BeginHorizontal();
         GUI.DrawTexture(iconSection, pokemonData.icon);
         GUILayout.EndHorizontal();
-
-        EditorGUIUtility.SetIconForObject(pokemonData, pokemonData.icon);
     }
 
 }

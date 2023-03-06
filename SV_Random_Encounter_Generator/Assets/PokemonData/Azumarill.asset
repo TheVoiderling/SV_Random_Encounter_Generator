@@ -17,6 +17,6 @@ MonoBehaviour:
   evoChainNumder: 42
   formattedPokedexNumber: 0184
   isMonoType: 0
-  type1: 17
-  type2: 4
+  type1: 18
+  type2: 5
   icon: {fileID: 2800000, guid: 44cad257b9031ba49beba610682bbbed, type: 3}

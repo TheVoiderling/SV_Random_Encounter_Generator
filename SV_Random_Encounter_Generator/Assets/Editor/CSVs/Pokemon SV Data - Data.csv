@@ -32,10 +32,10 @@ Number,Name,Type1,Type2,EvoChain,Exclusive,Legendary,Paradox,NotInBase
 80,Slowbro (Galarian),Poison,Psychic,15,0,0,0,1
 81,Magnemite,Electric,Steel,16,0,0,0,0
 82,Magneton,Electric,Steel,16,0,0,0,0
-88,Grimer (Alolan),Poison,Dark,17,0,0,0,0
 88,Grimer,Poison,None,18,0,0,0,0
-89,Muk (Alolan),Poison,Dark,17,0,0,0,0
+88,Grimer (Alolan),Poison,Dark,17,0,0,0,0
 89,Muk,Poison,None,18,0,0,0,0
+89,Muk (Alolan),Poison,Dark,17,0,0,0,0
 90,Shellder,Water,None,19,0,0,0,0
 91,Cloyster,Water,Ice,19,0,0,0,0
 92,Gastly,Ghost,Poison,20,0,0,0,0
@@ -178,8 +178,8 @@ Number,Name,Type1,Type2,EvoChain,Exclusive,Legendary,Paradox,NotInBase
 419,Floatzel,Water,None,96,0,0,0,0
 422,Shellos,Water,None,97,0,0,0,0
 423,Gastrodon,Water,Ground,97,0,0,0,0
-425,Drifloon,Ghost,Flying,98,1,0,0,0
 425,Drifblim,Ghost,Flying,98,1,0,0,0
+425,Drifloon,Ghost,Flying,98,1,0,0,0
 429,Mismagius,Ghost,None,49,2,0,0,0
 430,Honchkrow,Dark,Flying,48,0,0,0,0
 434,Stunky,Poison,Dark,99,1,0,0,0
@@ -458,6 +458,7 @@ Number,Name,Type1,Type2,EvoChain,Exclusive,Legendary,Paradox,NotInBase
 947,Brambleghast,Grass,Ghost,229,0,0,0,0
 948,Toedscool,Ground,Grass,230,0,0,0,0
 949,Toedscruel,Ground,Grass,230,0,0,0,0
+950,Klawf,Rock,None,273,0,0,0,0
 951,Capsakid,Grass,None,231,0,0,0,0
 952,Scovillain,Grass,Fire,231,0,0,0,0
 953,Rellor,Bug,None,232,0,0,0,0
@@ -501,6 +502,7 @@ Number,Name,Type1,Type2,EvoChain,Exclusive,Legendary,Paradox,NotInBase
 991,Iron Bundle,Ice,Water,257,2,0,1,0
 992,Iron Hands,Fighting,Electric,258,2,0,1,0
 993,Iron Jugulis,Dark,Flying,259,2,0,1,0
+994,Iron Moth,Fire,Posion,274,2,0,1,0
 995,Iron Throns,Rock,Electric,260,2,0,1,0
 996,Frigibax,Dragon,Ice,261,0,0,0,0
 997,Arcibax,Dragon,Ice,261,0,0,0,0

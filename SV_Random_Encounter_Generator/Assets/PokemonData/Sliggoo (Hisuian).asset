@@ -16,7 +16,7 @@ MonoBehaviour:
   pokedexNumber: 705
   evoChainNumder: 154
   formattedPokedexNumber: 0705
-  isMonoType: 1
-  type1: 16
-  type2: 0
+  isMonoType: 0
+  type1: 17
+  type2: 3
   icon: {fileID: 2800000, guid: 81e11f2260e1af440ba01dcc8274fc5f, type: 3}

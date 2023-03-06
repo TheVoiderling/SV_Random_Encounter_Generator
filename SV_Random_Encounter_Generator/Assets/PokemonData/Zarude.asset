@@ -18,5 +18,5 @@ MonoBehaviour:
   formattedPokedexNumber: 0893
   isMonoType: 0
   type1: 2
-  type2: 9
-  icon: {fileID: 2800000, guid: bfdc3ec480409b24e93536653de6ece9, type: 3}
+  type2: 10
+  icon: {fileID: 2800000, guid: 340ebe0156b67414395a6b4dca2989ea, type: 3}

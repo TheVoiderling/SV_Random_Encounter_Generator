@@ -64,6 +64,11 @@ public class DataGenerator
             return PokemonType.DARK;
         }
 
+        if (input == "Dragon")
+        {
+            return PokemonType.DRAGON;
+        }
+
         if (input == "Electric")
         {
             return PokemonType.ELECTRIC;
@@ -91,7 +96,7 @@ public class DataGenerator
 
         if (input == "Ghost")
         {
-            return PokemonType.BUG;
+            return PokemonType.GHOST;
         }
 
         if (input == "Grass")
