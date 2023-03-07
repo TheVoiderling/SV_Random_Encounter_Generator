@@ -16,6 +16,7 @@ public class GenerateEncounter : MonoBehaviour
     public PokemonDatabase pokemonMasterDatabase;
     public List<PokemonData> duplicateMasterDatabase,filteredPokemonDatabase;
     public Toggle scarletToggle, violetToggle, legendariesToggle, paradoxToggle, postLaunchToggle;
+    public MonotypeManager typeManager;
 
     private void Start()
     {
@@ -44,6 +45,21 @@ public class GenerateEncounter : MonoBehaviour
         filteredPokemonDatabase = new List<PokemonData>();
         foreach (PokemonData pokemon in duplicateMasterDatabase)
         {
+            if (!typeManager.isAnyType)
+            {
+                if (typeManager.isAnyMono)
+                {
+                    if (!pokemon.isMonoType)
+                    {
+                        continue;
+                    }
+                }
+                if(pokemon.type1 != typeManager.monoType && pokemon.type2 != typeManager.monoType)
+                {
+                    continue;
+                }
+            }
+
             if (!postLaunchToggle.isOn)
             {
                 if (pokemon.isNotInBaseGame)
@@ -86,10 +102,8 @@ public class GenerateEncounter : MonoBehaviour
     public PokemonData RandomEncounter()
     {
         PokemonData output = new PokemonData();
-        //int max = filteredPokemonDatabase.database.Count - 1;
-        //output = filteredPokemonDatabase.database[Random.Range(0, max)];
-        int max = pokemonMasterDatabase.database.Count - 1;
-        output = pokemonMasterDatabase.database[Random.Range(0, max)];
+        int max = filteredPokemonDatabase.Count - 1;
+        output = filteredPokemonDatabase[Random.Range(0, max)];
         if (_currentEncounter != null)
         {
             if (output == _currentEncounter)
