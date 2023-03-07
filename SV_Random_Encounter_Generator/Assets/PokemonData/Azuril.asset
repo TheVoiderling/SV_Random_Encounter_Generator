@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a891cd73f4fbc3b43b30219328b51177, type: 3}
+  m_Name: Azuril
+  m_EditorClassIdentifier: 
+  pokemonName: Azuril
+  pokedexNumber: 298
+  evoChainNumder: 42
+  regionalFormNumber: 0
+  specialFormNumber: 0
+  formattedPokedexNumber: 0298
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
+  isMonoType: 0
+  type1: 13
+  type2: 5
+  isScarletExclusive: 0
+  isVioletExclusive: 0
+  isLegendary: 0
+  isParadox: 0
+  isNotInBaseGame: 0
+  icon: {fileID: 21300000, guid: 7167fdff37d774a4e96a0a3038b0e2d2, type: 3}
+  defaulticonPath: Sprites/Big/pm0000_00_00_00_big
+  iconPath: 
