@@ -545,10 +545,10 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 7be1ff44e5e06d443988bdb811543e92, type: 3}
   - {fileID: 21300000, guid: 1a720c394aa23614a9480d5b45daba4c, type: 3}
   pokemonMasterDatabase: {fileID: 11400000, guid: 5746e4c08ec84f04e949a8df679c9cd1, type: 2}
-  filteredPokemonDatabase: {fileID: 11400000, guid: b77ca9f3bc1da8d4b9fe9910fe657742, type: 2}
+  duplicateMasterDatabase: []
+  filteredPokemonDatabase: []
   isScarletExclusive: 0
   isVioletExclusive: 0
-  isOnlyBaseGame: 0
   legendariesToggle: {fileID: 593422326}
   paradoxToggle: {fileID: 1305591157}
   postLaunchToggle: {fileID: 509733389}

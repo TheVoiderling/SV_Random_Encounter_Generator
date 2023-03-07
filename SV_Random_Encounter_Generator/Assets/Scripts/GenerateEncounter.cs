@@ -13,14 +13,16 @@ public class GenerateEncounter : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _pokemonName;
     [SerializeField] private Image _pokemonSprite, _type1, _type2;
     [SerializeField] private Sprite[] _typeIcons;
-    public PokemonDatabase pokemonMasterDatabase, filteredPokemonDatabase;
-    public bool isScarletExclusive, isVioletExclusive, isOnlyBaseGame;
+    public PokemonDatabase pokemonMasterDatabase;
+    public List<PokemonData> duplicateMasterDatabase,filteredPokemonDatabase;
+    public bool isScarletExclusive, isVioletExclusive;
     public Toggle legendariesToggle, paradoxToggle, postLaunchToggle;
 
     private void Start()
     {
         _type1.sprite = _typeIcons[0];
         _type2.sprite = _typeIcons[0];
+        duplicateMasterDatabase = pokemonMasterDatabase.database;
     }
 
     public void FindEncounter()
@@ -40,9 +42,12 @@ public class GenerateEncounter : MonoBehaviour
 
     private void FilterDatabase()
     {
-        filteredPokemonDatabase.database = new List<PokemonData>();
-        foreach (PokemonData pokemon in pokemonMasterDatabase.database)
+        filteredPokemonDatabase = new List<PokemonData>();
+        int index = 0;
+        foreach (PokemonData pokemon in duplicateMasterDatabase)
         {
+            Debug.Log(index + ": " + pokemon.name);
+            index++;
             if (!legendariesToggle.isOn)
             {
                 if (pokemon.isLegendary)
@@ -57,23 +62,25 @@ public class GenerateEncounter : MonoBehaviour
                     continue;
                 }
             }
-            if (postLaunchToggle)
+            if (!postLaunchToggle.isOn)
             {
                 if (pokemon.isNotInBaseGame)
                 {
                     continue;
                 }
             }
-            filteredPokemonDatabase.database.Add(pokemon);
+            filteredPokemonDatabase.Add(pokemon);
         }
     }
 
     public PokemonData RandomEncounter()
     {
         PokemonData output = new PokemonData();
-        int max = filteredPokemonDatabase.database.Count - 1;
-        output = filteredPokemonDatabase.database[Random.Range(0, max)];
-        if(_currentEncounter != null)
+        //int max = filteredPokemonDatabase.database.Count - 1;
+        //output = filteredPokemonDatabase.database[Random.Range(0, max)];
+        int max = pokemonMasterDatabase.database.Count - 1;
+        output = pokemonMasterDatabase.database[Random.Range(0, max)];
+        if (_currentEncounter != null)
         {
             if (output == _currentEncounter)
             {
