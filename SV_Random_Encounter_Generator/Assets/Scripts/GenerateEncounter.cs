@@ -15,8 +15,7 @@ public class GenerateEncounter : MonoBehaviour
     [SerializeField] private Sprite[] _typeIcons;
     public PokemonDatabase pokemonMasterDatabase;
     public List<PokemonData> duplicateMasterDatabase,filteredPokemonDatabase;
-    public bool isScarletExclusive, isVioletExclusive;
-    public Toggle legendariesToggle, paradoxToggle, postLaunchToggle;
+    public Toggle scarletToggle, violetToggle, legendariesToggle, paradoxToggle, postLaunchToggle;
 
     private void Start()
     {
@@ -43,11 +42,29 @@ public class GenerateEncounter : MonoBehaviour
     private void FilterDatabase()
     {
         filteredPokemonDatabase = new List<PokemonData>();
-        int index = 0;
         foreach (PokemonData pokemon in duplicateMasterDatabase)
         {
-            Debug.Log(index + ": " + pokemon.name);
-            index++;
+            if (!postLaunchToggle.isOn)
+            {
+                if (pokemon.isNotInBaseGame)
+                {
+                    continue;
+                }
+            }
+            if (!scarletToggle.isOn)
+            {
+                if (pokemon.isScarletExclusive)
+                {
+                    continue;
+                }
+            }
+            if (!violetToggle.isOn)
+            {
+                if (pokemon.isVioletExclusive)
+                {
+                    continue;
+                }
+            }
             if (!legendariesToggle.isOn)
             {
                 if (pokemon.isLegendary)
@@ -58,13 +75,6 @@ public class GenerateEncounter : MonoBehaviour
             if (!paradoxToggle.isOn)
             {
                 if (pokemon.isParadox)
-                {
-                    continue;
-                }
-            }
-            if (!postLaunchToggle.isOn)
-            {
-                if (pokemon.isNotInBaseGame)
                 {
                     continue;
                 }
