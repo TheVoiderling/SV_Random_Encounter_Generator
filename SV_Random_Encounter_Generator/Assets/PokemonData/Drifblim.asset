@@ -13,10 +13,17 @@ MonoBehaviour:
   m_Name: Drifblim
   m_EditorClassIdentifier: 
   pokemonName: Drifblim
-  pokedexNumber: 425
+  pokedexNumber: 426
   evoChainNumder: 98
-  formattedPokedexNumber: 0425
+  formattedPokedexNumber: 0426
   isMonoType: 0
   type1: 9
   type2: 8
-  icon: {fileID: 2800000, guid: 30cd2e7fa1d8bf0438a60850acc35b43, type: 3}
+  isScarletExclusive: 1
+  isVioletExclusive: 0
+  isLegendary: 0
+  isParadox: 0
+  isNotInBaseGame: 0
+  icon: {fileID: 21300000, guid: d3a7a268db6475a49ae781c97482d76a, type: 3}
+  defaulticonPath: Sprites/Big/pm0000_00_00_00_big
+  iconPath: 

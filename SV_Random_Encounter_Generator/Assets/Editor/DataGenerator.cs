@@ -11,11 +11,13 @@ public class DataGenerator
     private static string _dataCSVPath = "/Editor/CSVs/Pokemon SV Data - Data.csv";
     private static int numberOfColloums = 9;
 
-    [MenuItem("Utilities/Generate Enemies")]
+    [MenuItem("Utilities/Generate Pokeomn Data")]
     public static void GenerateDataObjects()
     {
         string[] allLines = File.ReadAllLines(Application.dataPath + _dataCSVPath);
         bool firstLineChecked = false;
+        PokemonDatabase database = ScriptableObject.CreateInstance<PokemonDatabase>();
+        database.database = new List<PokemonData>();
         foreach(string s in allLines)
         {
             if (!firstLineChecked)
@@ -40,10 +42,23 @@ public class DataGenerator
                     pokemon.isMonoType = true;
                 }
                 pokemon.evoChainNumder = int.Parse(splitData[4]);
+                if(int.Parse(splitData[5]) == 1)
+                {
+                    pokemon.isScarletExclusive = true;
+                }
+                if (int.Parse(splitData[5]) == 2)
+                {
+                    pokemon.isVioletExclusive = true;
+                }
+                pokemon.isLegendary = ParseBinaryBool(splitData[6]);
+                pokemon.isParadox = ParseBinaryBool(splitData[7]);
+                pokemon.isNotInBaseGame = ParseBinaryBool(splitData[8]);
                 FindIcon(pokemon);
                 AssetDatabase.CreateAsset(pokemon, $"Assets/PokemonData/{pokemon.pokemonName}.asset");
+                database.database.Add(pokemon);
             }
         }
+        AssetDatabase.CreateAsset(database, $"Assets/Database.asset");
         AssetDatabase.SaveAssets();
     }
 
@@ -150,14 +165,23 @@ public class DataGenerator
     public static void FindIcon(PokemonData pokemonData)
     {
         pokemonData.formattedPokedexNumber = pokemonData.pokedexNumber.ToString("0000");
-        pokemonData.icon = Resources.Load<Texture2D>("Sprites/Big/pm" + pokemonData.formattedPokedexNumber + "_00_00_00_big");
+        pokemonData.icon = Resources.Load<Sprite>("Sprites/Big/pm" + pokemonData.formattedPokedexNumber + "_00_00_00_big");
         if (pokemonData.icon == null)
         {
-            pokemonData.icon = Resources.Load<Texture2D>("Sprites/Big/pm" + pokemonData.formattedPokedexNumber + "_11_00_00_big");
+            pokemonData.icon = Resources.Load<Sprite>("Sprites/Big/pm" + pokemonData.formattedPokedexNumber + "_11_00_00_big");
         }
         if (pokemonData.icon == null)
         {
-            pokemonData.icon = Resources.Load<Texture2D>("Sprites/Big/pm0000_00_00_00_big");
+            pokemonData.icon = Resources.Load<Sprite>("Sprites/Big/pm0000_00_00_00_big");
         }
+    }
+
+    public static bool ParseBinaryBool(string input)
+    {
+        if(int.Parse(input) == 1)
+        {
+            return true;
+        }
+        return false;
     }
 }

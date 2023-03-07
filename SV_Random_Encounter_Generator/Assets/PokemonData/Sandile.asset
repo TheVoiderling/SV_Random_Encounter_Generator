@@ -19,4 +19,11 @@ MonoBehaviour:
   isMonoType: 0
   type1: 11
   type2: 2
-  icon: {fileID: 2800000, guid: b7a9370d3610f3e4c9653f19b4dbe387, type: 3}
+  isScarletExclusive: 0
+  isVioletExclusive: 0
+  isLegendary: 0
+  isParadox: 0
+  isNotInBaseGame: 0
+  icon: {fileID: 21300000, guid: b7a9370d3610f3e4c9653f19b4dbe387, type: 3}
+  defaulticonPath: Sprites/Big/pm0000_00_00_00_big
+  iconPath: 

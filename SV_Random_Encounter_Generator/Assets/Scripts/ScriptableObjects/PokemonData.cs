@@ -12,7 +12,9 @@ public class PokemonData : ScriptableObject
     public string formattedPokedexNumber;
     public bool isMonoType;
     public PokemonType type1, type2;
-    public Texture2D icon;
+    public bool isScarletExclusive, isVioletExclusive, isLegendary, isParadox, isNotInBaseGame;
+    public Sprite icon;
+    public string defaulticonPath = "Sprites/Big/pm0000_00_00_00_big", iconPath;
 }
 
 #if UNITY_EDITOR
@@ -25,10 +27,11 @@ class CustomDisplay : Editor
         if (pokemonData == null) return;
         Undo.RecordObject(pokemonData, "Change Pokemon Data");
 
-        Texture2D iconTexture = Resources.Load<Texture2D>("Sprites/Big/pm0000_00_00_00_big");
+        pokemonData.iconPath = pokemonData.defaulticonPath;
+        Texture2D iconTexture = Resources.Load<Texture2D>(pokemonData.iconPath);
         Rect iconSection = new Rect();
         iconSection.x = 0;
-        iconSection.y = 100;
+        iconSection.y = 140;
         iconSection.width = Screen.width / 3;
         iconSection.height = iconSection.width;
 
@@ -44,14 +47,17 @@ class CustomDisplay : Editor
         if (EditorGUI.EndChangeCheck())
         {
             pokemonData.formattedPokedexNumber = pokemonData.pokedexNumber.ToString("0000");
-            pokemonData.icon = Resources.Load<Texture2D>("Sprites/Big/pm" + pokemonData.formattedPokedexNumber + "_00_00_00_big");
-            if(pokemonData.icon == null)
+            pokemonData.iconPath = "Sprites/Big/pm" + pokemonData.formattedPokedexNumber + "_00_00_00_big";
+            pokemonData.icon = Resources.Load<Sprite>(pokemonData.iconPath);
+            if (pokemonData.icon == null)
             {
-                pokemonData.icon = Resources.Load<Texture2D>("Sprites/Big/pm" + pokemonData.formattedPokedexNumber + "_11_00_00_big");
+                pokemonData.iconPath = "Sprites/Big/pm" + pokemonData.formattedPokedexNumber + "_11_00_00_big";
+                pokemonData.icon = Resources.Load<Sprite>(pokemonData.iconPath);
             }
             if (pokemonData.icon == null)
             {
-                pokemonData.icon = iconTexture;
+                pokemonData.iconPath = pokemonData.defaulticonPath;
+                pokemonData.icon = Resources.Load<Sprite>(pokemonData.iconPath);
             }
         }
         GUILayout.EndHorizontal();
@@ -77,7 +83,41 @@ class CustomDisplay : Editor
         }
 
         GUILayout.BeginHorizontal();
-        GUI.DrawTexture(iconSection, pokemonData.icon);
+        EditorGUILayout.Separator();
+        GUILayout.EndHorizontal();
+
+        GUILayout.BeginHorizontal();
+        if (pokemonData.isScarletExclusive)
+        {
+            GUILayout.Label("Scarlet Exclusive");
+        }
+        if (pokemonData.isVioletExclusive)
+        {
+            GUILayout.Label("Violet Exclusive");
+        }
+        if (pokemonData.isLegendary)
+        {
+            GUILayout.Label("Legendary");
+        }
+        if (pokemonData.isParadox)
+        {
+            GUILayout.Label("Paradox");
+        }
+        GUILayout.EndHorizontal();
+
+        if (pokemonData.isNotInBaseGame)
+        {
+            GUILayout.BeginHorizontal();
+            GUILayout.Label("NOT IN BASE GAME");
+            GUILayout.EndHorizontal();
+        }
+
+        GUILayout.BeginHorizontal();
+        EditorGUILayout.Separator();
+        GUILayout.EndHorizontal();
+
+        GUILayout.BeginHorizontal();
+        GUI.DrawTexture(iconSection, pokemonData.icon.texture);
         GUILayout.EndHorizontal();
     }
 

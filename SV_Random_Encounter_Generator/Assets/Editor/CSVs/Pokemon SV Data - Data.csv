@@ -60,7 +60,7 @@ Number,Name,Type1,Type2,EvoChain,Exclusive,Legendary,Paradox,NotInBase
 134,Vaporeon,Water,None,30,0,0,0,0
 135,Jolteon,Electric,None,30,0,0,0,0
 136,Flareon,Fire,None,30,0,0,0,0
-144,Articuno,Ice,Flying,31,0,1,,1
+144,Articuno,Ice,Flying,31,0,1,0,1
 144,Articuno (Galarian),Psychic,Flying,32,0,1,0,1
 145,Zapdos,Electric,Flying,33,0,1,0,1
 145,Zapdos (Galarian),Fighting,Flying,34,0,1,0,1
@@ -178,8 +178,8 @@ Number,Name,Type1,Type2,EvoChain,Exclusive,Legendary,Paradox,NotInBase
 419,Floatzel,Water,None,96,0,0,0,0
 422,Shellos,Water,None,97,0,0,0,0
 423,Gastrodon,Water,Ground,97,0,0,0,0
-425,Drifblim,Ghost,Flying,98,1,0,0,0
 425,Drifloon,Ghost,Flying,98,1,0,0,0
+426,Drifblim,Ghost,Flying,98,1,0,0,0
 429,Mismagius,Ghost,None,49,2,0,0,0
 430,Honchkrow,Dark,Flying,48,0,0,0,0
 434,Stunky,Poison,Dark,99,1,0,0,0
