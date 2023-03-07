@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Finizen
   pokedexNumber: 963
   evoChainNumder: 238
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0963
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 18
   type2: 0

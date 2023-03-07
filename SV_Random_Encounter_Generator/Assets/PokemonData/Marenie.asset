@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Marenie
   pokedexNumber: 747
   evoChainNumder: 166
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0747
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 14
   type2: 18

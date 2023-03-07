@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Tornadus
   pokedexNumber: 641
   evoChainNumder: 137
+  regionalFormNumber: 0
+  specialFormNumber: 11
   formattedPokedexNumber: 0641
+  formattedRegionNumber: 00
+  formattedFormNumber: 11
   isMonoType: 1
   type1: 8
   type2: 0

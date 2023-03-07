@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Flapple
   pokedexNumber: 841
   evoChainNumder: 186
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0841
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 10
   type2: 3

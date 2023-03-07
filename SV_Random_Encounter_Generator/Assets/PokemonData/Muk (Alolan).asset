@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Muk (Alolan)
   pokedexNumber: 89
   evoChainNumder: 17
+  regionalFormNumber: 11
+  specialFormNumber: 0
   formattedPokedexNumber: 0089
+  formattedRegionNumber: 11
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 14
   type2: 2
@@ -23,7 +27,7 @@ MonoBehaviour:
   isVioletExclusive: 0
   isLegendary: 0
   isParadox: 0
-  isNotInBaseGame: 0
-  icon: {fileID: 21300000, guid: 68bcfc56f45cda94e8ec418daec0e437, type: 3}
+  isNotInBaseGame: 1
+  icon: {fileID: 21300000, guid: 781c697be7dd5d549aeada23b08c87e0, type: 3}
   defaulticonPath: Sprites/Big/pm0000_00_00_00_big
   iconPath: 

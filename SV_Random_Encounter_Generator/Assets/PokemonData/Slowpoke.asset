@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Slowpoke
   pokedexNumber: 79
   evoChainNumder: 14
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0079
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 18
   type2: 15

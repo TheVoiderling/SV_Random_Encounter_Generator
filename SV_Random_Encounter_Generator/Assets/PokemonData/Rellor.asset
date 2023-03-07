@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Rellor
   pokedexNumber: 953
   evoChainNumder: 232
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0953
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 1
   type2: 0

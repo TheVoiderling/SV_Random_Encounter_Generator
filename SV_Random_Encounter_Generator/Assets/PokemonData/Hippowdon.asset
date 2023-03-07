@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Hippowdon
   pokedexNumber: 450
   evoChainNumder: 104
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0450
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 11
   type2: 0

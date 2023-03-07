@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Palkia
   pokedexNumber: 484
   evoChainNumder: 113
+  regionalFormNumber: 0
+  specialFormNumber: 11
   formattedPokedexNumber: 0484
+  formattedRegionNumber: 00
+  formattedFormNumber: 11
   isMonoType: 0
   type1: 18
   type2: 3

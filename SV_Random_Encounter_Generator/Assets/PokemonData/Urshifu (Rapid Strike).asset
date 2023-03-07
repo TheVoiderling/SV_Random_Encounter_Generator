@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Urshifu (Rapid Strike)
   pokedexNumber: 892
   evoChainNumder: 204
+  regionalFormNumber: 0
+  specialFormNumber: 11
   formattedPokedexNumber: 0892
+  formattedRegionNumber: 00
+  formattedFormNumber: 11
   isMonoType: 0
   type1: 6
   type2: 18

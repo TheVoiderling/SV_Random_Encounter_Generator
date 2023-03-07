@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Stantler
   pokedexNumber: 234
   evoChainNumder: 63
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0234
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 13
   type2: 0

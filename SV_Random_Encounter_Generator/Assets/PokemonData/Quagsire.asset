@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Quagsire
   pokedexNumber: 195
   evoChainNumder: 47
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0195
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 18
   type2: 11

@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: "Flab\xE9b\xE9"
   pokedexNumber: 669
   evoChainNumder: 147
+  regionalFormNumber: 0
+  specialFormNumber: 11
   formattedPokedexNumber: 0669
+  formattedRegionNumber: 00
+  formattedFormNumber: 11
   isMonoType: 1
   type1: 5
   type2: 0

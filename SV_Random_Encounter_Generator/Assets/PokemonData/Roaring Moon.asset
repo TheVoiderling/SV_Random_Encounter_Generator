@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Roaring Moon
   pokedexNumber: 1005
   evoChainNumder: 267
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 1005
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 3
   type2: 2

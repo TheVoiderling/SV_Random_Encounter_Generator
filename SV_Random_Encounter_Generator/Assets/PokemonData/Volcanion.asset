@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Volcanion
   pokedexNumber: 721
   evoChainNumder: 160
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0721
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 7
   type2: 18

@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Lycanroc
   pokedexNumber: 745
   evoChainNumder: 165
+  regionalFormNumber: 0
+  specialFormNumber: 11
   formattedPokedexNumber: 0745
+  formattedRegionNumber: 00
+  formattedFormNumber: 11
   isMonoType: 1
   type1: 16
   type2: 0

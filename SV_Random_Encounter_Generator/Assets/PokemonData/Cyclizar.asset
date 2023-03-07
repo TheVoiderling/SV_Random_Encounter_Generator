@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Cyclizar
   pokedexNumber: 967
   evoChainNumder: 240
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0967
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 3
   type2: 13

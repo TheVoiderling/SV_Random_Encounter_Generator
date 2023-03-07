@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Seviper
   pokedexNumber: 336
   evoChainNumder: 80
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0336
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 14
   type2: 0

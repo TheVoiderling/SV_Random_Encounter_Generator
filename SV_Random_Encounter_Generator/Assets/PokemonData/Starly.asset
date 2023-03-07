@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Starly
   pokedexNumber: 396
   evoChainNumder: 91
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0396
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 13
   type2: 8

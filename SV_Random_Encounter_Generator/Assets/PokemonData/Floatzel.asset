@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Floatzel
   pokedexNumber: 419
   evoChainNumder: 96
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0419
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 18
   type2: 0

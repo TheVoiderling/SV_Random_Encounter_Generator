@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Gastrodon
   pokedexNumber: 423
   evoChainNumder: 97
+  regionalFormNumber: 0
+  specialFormNumber: 11
   formattedPokedexNumber: 0423
+  formattedRegionNumber: 00
+  formattedFormNumber: 11
   isMonoType: 0
   type1: 18
   type2: 11

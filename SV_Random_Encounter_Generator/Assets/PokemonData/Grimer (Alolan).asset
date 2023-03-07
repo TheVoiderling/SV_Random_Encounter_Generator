@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Grimer (Alolan)
   pokedexNumber: 88
   evoChainNumder: 17
+  regionalFormNumber: 11
+  specialFormNumber: 0
   formattedPokedexNumber: 0088
+  formattedRegionNumber: 11
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 14
   type2: 2
@@ -23,7 +27,7 @@ MonoBehaviour:
   isVioletExclusive: 0
   isLegendary: 0
   isParadox: 0
-  isNotInBaseGame: 0
-  icon: {fileID: 21300000, guid: b744e4a8dc816714c8262ce42f76c7f1, type: 3}
+  isNotInBaseGame: 1
+  icon: {fileID: 21300000, guid: f4cfd325bbead2240aaabc1c4b2b1698, type: 3}
   defaulticonPath: Sprites/Big/pm0000_00_00_00_big
   iconPath: 

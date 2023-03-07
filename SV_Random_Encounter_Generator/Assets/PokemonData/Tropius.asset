@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Tropius
   pokedexNumber: 357
   evoChainNumder: 84
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0357
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 10
   type2: 8

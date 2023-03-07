@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Crabominable
   pokedexNumber: 740
   evoChainNumder: 163
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0740
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 6
   type2: 12

@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Donphan
   pokedexNumber: 232
   evoChainNumder: 62
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0232
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 11
   type2: 0

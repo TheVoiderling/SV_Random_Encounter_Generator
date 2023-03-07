@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Fletchling
   pokedexNumber: 661
   evoChainNumder: 144
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0661
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 13
   type2: 8

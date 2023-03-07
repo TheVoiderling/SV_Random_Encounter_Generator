@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Blissey
   pokedexNumber: 242
   evoChainNumder: 24
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0242
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 13
   type2: 0

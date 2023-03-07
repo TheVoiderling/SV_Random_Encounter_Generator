@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Grimer
   pokedexNumber: 88
   evoChainNumder: 18
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0088
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 14
   type2: 0

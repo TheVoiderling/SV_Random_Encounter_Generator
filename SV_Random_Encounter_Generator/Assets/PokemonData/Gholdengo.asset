@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Gholdengo
   pokedexNumber: 1000
   evoChainNumder: 262
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 1000
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 17
   type2: 9

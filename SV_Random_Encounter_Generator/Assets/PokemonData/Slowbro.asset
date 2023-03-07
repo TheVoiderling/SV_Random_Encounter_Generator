@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Slowbro
   pokedexNumber: 80
   evoChainNumder: 14
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0080
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 18
   type2: 15

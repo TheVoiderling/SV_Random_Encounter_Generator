@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Drizzile
   pokedexNumber: 817
   evoChainNumder: 181
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0817
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 18
   type2: 0

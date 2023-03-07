@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Masquerain
   pokedexNumber: 284
   evoChainNumder: 67
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0284
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 1
   type2: 8

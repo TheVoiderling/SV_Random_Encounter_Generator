@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Salazzle
   pokedexNumber: 758
   evoChainNumder: 170
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0758
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 14
   type2: 7

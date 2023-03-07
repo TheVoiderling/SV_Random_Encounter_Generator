@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Groudon
   pokedexNumber: 383
   evoChainNumder: 89
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0383
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 11
   type2: 0

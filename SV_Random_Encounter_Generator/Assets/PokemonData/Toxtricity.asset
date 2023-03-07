@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Toxtricity
   pokedexNumber: 849
   evoChainNumder: 189
+  regionalFormNumber: 0
+  specialFormNumber: 11
   formattedPokedexNumber: 0849
+  formattedRegionNumber: 00
+  formattedFormNumber: 11
   isMonoType: 0
   type1: 4
   type2: 14

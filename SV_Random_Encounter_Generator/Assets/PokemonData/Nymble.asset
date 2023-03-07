@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Nymble
   pokedexNumber: 919
   evoChainNumder: 216
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0919
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 1
   type2: 0

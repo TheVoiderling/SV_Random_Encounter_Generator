@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Vespiquen
   pokedexNumber: 416
   evoChainNumder: 94
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0416
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 1
   type2: 8

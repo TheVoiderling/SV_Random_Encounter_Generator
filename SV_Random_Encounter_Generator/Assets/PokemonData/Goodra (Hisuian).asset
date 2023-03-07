@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Goodra (Hisuian)
   pokedexNumber: 706
   evoChainNumder: 154
+  regionalFormNumber: 41
+  specialFormNumber: 0
   formattedPokedexNumber: 0706
+  formattedRegionNumber: 41
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 17
   type2: 3
@@ -24,6 +28,6 @@ MonoBehaviour:
   isLegendary: 0
   isParadox: 0
   isNotInBaseGame: 1
-  icon: {fileID: 21300000, guid: 9d2761945df1d5046ae38c915d395c9e, type: 3}
+  icon: {fileID: 21300000, guid: b02e5a072053c3349a4acc0510146352, type: 3}
   defaulticonPath: Sprites/Big/pm0000_00_00_00_big
   iconPath: 

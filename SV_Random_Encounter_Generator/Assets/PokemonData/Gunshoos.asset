@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Gunshoos
   pokedexNumber: 735
   evoChainNumder: 162
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0735
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 13
   type2: 0

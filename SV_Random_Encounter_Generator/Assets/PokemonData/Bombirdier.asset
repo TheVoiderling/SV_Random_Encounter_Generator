@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Bombirdier
   pokedexNumber: 962
   evoChainNumder: 237
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0962
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 8
   type2: 2

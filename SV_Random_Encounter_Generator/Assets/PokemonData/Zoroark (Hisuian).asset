@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Zoroark (Hisuian)
   pokedexNumber: 571
   evoChainNumder: 124
+  regionalFormNumber: 41
+  specialFormNumber: 0
   formattedPokedexNumber: 0571
+  formattedRegionNumber: 41
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 13
   type2: 9
@@ -24,6 +28,6 @@ MonoBehaviour:
   isLegendary: 0
   isParadox: 0
   isNotInBaseGame: 1
-  icon: {fileID: 21300000, guid: 6f5285a960e9a034a8c22808eccae37d, type: 3}
+  icon: {fileID: 21300000, guid: 9e2489cfe076f7a46934361fd87af85b, type: 3}
   defaulticonPath: Sprites/Big/pm0000_00_00_00_big
   iconPath: 

@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Espathra
   pokedexNumber: 956
   evoChainNumder: 234
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0956
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 15
   type2: 0

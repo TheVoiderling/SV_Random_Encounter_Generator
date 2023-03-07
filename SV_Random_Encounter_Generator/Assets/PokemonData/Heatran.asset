@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Heatran
   pokedexNumber: 485
   evoChainNumder: 114
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0485
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 7
   type2: 17

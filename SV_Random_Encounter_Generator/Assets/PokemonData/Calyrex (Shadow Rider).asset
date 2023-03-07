@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Calyrex (Shadow Rider)
   pokedexNumber: 898
   evoChainNumder: 209
+  regionalFormNumber: 0
+  specialFormNumber: 13
   formattedPokedexNumber: 0898
+  formattedRegionNumber: 00
+  formattedFormNumber: 13
   isMonoType: 0
   type1: 15
   type2: 9
@@ -24,6 +28,6 @@ MonoBehaviour:
   isLegendary: 1
   isParadox: 0
   isNotInBaseGame: 1
-  icon: {fileID: 21300000, guid: 9963eecdc3be644449a10ba41744a6c3, type: 3}
+  icon: {fileID: 21300000, guid: 4786b18fe63f6b64998584795ffec64b, type: 3}
   defaulticonPath: Sprites/Big/pm0000_00_00_00_big
   iconPath: 

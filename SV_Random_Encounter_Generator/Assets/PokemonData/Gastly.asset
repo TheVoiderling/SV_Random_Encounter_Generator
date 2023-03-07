@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Gastly
   pokedexNumber: 92
   evoChainNumder: 20
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0092
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 9
   type2: 14

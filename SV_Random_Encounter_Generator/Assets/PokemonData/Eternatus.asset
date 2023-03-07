@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Eternatus
   pokedexNumber: 890
   evoChainNumder: 203
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0890
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 14
   type2: 3

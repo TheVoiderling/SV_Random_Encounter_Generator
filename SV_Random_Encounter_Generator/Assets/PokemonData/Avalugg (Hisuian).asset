@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Avalugg (Hisuian)
   pokedexNumber: 713
   evoChainNumder: 156
+  regionalFormNumber: 41
+  specialFormNumber: 0
   formattedPokedexNumber: 0713
+  formattedRegionNumber: 41
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 12
   type2: 16
@@ -24,6 +28,6 @@ MonoBehaviour:
   isLegendary: 0
   isParadox: 0
   isNotInBaseGame: 1
-  icon: {fileID: 21300000, guid: 1e68c8b425f81a040a6792cbdf7f3be5, type: 3}
+  icon: {fileID: 21300000, guid: eb71ce4db42a93c479b9eab04e2102ab, type: 3}
   defaulticonPath: Sprites/Big/pm0000_00_00_00_big
   iconPath: 

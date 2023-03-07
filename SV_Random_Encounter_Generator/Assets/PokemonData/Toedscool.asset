@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Toedscool
   pokedexNumber: 948
   evoChainNumder: 230
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0948
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 11
   type2: 10

@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Litleo
   pokedexNumber: 667
   evoChainNumder: 146
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0667
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 7
   type2: 13

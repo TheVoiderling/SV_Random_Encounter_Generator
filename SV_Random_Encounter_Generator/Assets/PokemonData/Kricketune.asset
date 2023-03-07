@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Kricketune
   pokedexNumber: 402
   evoChainNumder: 92
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0402
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 1
   type2: 0

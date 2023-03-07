@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Rolycoly
   pokedexNumber: 837
   evoChainNumder: 185
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0837
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 16
   type2: 0

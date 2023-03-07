@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Greavard
   pokedexNumber: 971
   evoChainNumder: 243
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0971
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 9
   type2: 0

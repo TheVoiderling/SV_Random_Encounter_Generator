@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Articuno
   pokedexNumber: 144
   evoChainNumder: 31
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0144
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 12
   type2: 8

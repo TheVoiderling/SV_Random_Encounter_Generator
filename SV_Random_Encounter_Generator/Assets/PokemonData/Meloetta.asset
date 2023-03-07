@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Meloetta
   pokedexNumber: 648
   evoChainNumder: 140
+  regionalFormNumber: 0
+  specialFormNumber: 11
   formattedPokedexNumber: 0648
+  formattedRegionNumber: 00
+  formattedFormNumber: 11
   isMonoType: 0
   type1: 13
   type2: 15

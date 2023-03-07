@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Kilowattrel
   pokedexNumber: 941
   evoChainNumder: 225
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0941
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 4
   type2: 8

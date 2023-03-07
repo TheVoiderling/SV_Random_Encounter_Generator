@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Sneasel
   pokedexNumber: 215
   evoChainNumder: 57
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0215
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 2
   type2: 12

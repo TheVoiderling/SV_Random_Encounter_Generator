@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Perrserker
   pokedexNumber: 863
   evoChainNumder: 8
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0863
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 17
   type2: 0

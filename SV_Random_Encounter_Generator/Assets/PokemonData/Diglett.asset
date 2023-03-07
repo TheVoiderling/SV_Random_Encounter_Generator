@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Diglett
   pokedexNumber: 50
   evoChainNumder: 5
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0050
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 11
   type2: 0

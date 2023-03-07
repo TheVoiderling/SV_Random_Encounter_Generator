@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Goomy
   pokedexNumber: 704
   evoChainNumder: 154
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0704
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 3
   type2: 0

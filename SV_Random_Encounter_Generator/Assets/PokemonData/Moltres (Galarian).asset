@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Moltres (Galarian)
   pokedexNumber: 146
   evoChainNumder: 36
+  regionalFormNumber: 31
+  specialFormNumber: 0
   formattedPokedexNumber: 0146
+  formattedRegionNumber: 31
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 2
   type2: 8
@@ -24,6 +28,6 @@ MonoBehaviour:
   isLegendary: 1
   isParadox: 0
   isNotInBaseGame: 1
-  icon: {fileID: 21300000, guid: e769cf261d71bea4ab6a9df5f12f4c98, type: 3}
+  icon: {fileID: 21300000, guid: 12d2224f6953b61479d7ff97eba8cb9b, type: 3}
   defaulticonPath: Sprites/Big/pm0000_00_00_00_big
   iconPath: 

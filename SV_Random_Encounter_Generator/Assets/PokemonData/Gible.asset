@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Gible
   pokedexNumber: 443
   evoChainNumder: 102
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0443
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 3
   type2: 11

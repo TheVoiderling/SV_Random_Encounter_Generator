@@ -8,8 +8,8 @@ using UnityEditor;
 public class PokemonData : ScriptableObject
 {
     public string pokemonName;
-    public int pokedexNumber, evoChainNumder;
-    public string formattedPokedexNumber;
+    public int pokedexNumber, evoChainNumder, regionalFormNumber, specialFormNumber;
+    public string formattedPokedexNumber, formattedRegionNumber, formattedFormNumber;
     public bool isMonoType;
     public PokemonType type1, type2;
     public bool isScarletExclusive, isVioletExclusive, isLegendary, isParadox, isNotInBaseGame;
@@ -35,6 +35,9 @@ class CustomDisplay : Editor
         iconSection.width = Screen.width / 3;
         iconSection.height = iconSection.width;
 
+        pokemonData.formattedRegionNumber = pokemonData.regionalFormNumber.ToString("00");
+        pokemonData.formattedFormNumber = pokemonData.specialFormNumber.ToString("00");
+
         GUILayout.BeginHorizontal();
         GUILayout.Label("Name: ");
         pokemonData.pokemonName = EditorGUILayout.TextField(pokemonData.pokemonName);
@@ -47,13 +50,8 @@ class CustomDisplay : Editor
         if (EditorGUI.EndChangeCheck())
         {
             pokemonData.formattedPokedexNumber = pokemonData.pokedexNumber.ToString("0000");
-            pokemonData.iconPath = "Sprites/Big/pm" + pokemonData.formattedPokedexNumber + "_00_00_00_big";
+            pokemonData.iconPath = "Sprites/Big/pm" + pokemonData.formattedPokedexNumber + "_" + pokemonData.formattedFormNumber + "_" + pokemonData.formattedRegionNumber + "_00_big";
             pokemonData.icon = Resources.Load<Sprite>(pokemonData.iconPath);
-            if (pokemonData.icon == null)
-            {
-                pokemonData.iconPath = "Sprites/Big/pm" + pokemonData.formattedPokedexNumber + "_11_00_00_big";
-                pokemonData.icon = Resources.Load<Sprite>(pokemonData.iconPath);
-            }
             if (pokemonData.icon == null)
             {
                 pokemonData.iconPath = pokemonData.defaulticonPath;

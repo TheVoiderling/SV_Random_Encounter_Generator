@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Toxel
   pokedexNumber: 848
   evoChainNumder: 189
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0848
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 4
   type2: 14

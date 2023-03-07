@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Vivilion
   pokedexNumber: 666
   evoChainNumder: 145
+  regionalFormNumber: 0
+  specialFormNumber: 11
   formattedPokedexNumber: 0666
+  formattedRegionNumber: 00
+  formattedFormNumber: 11
   isMonoType: 0
   type1: 1
   type2: 8

@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Mewtwo
   pokedexNumber: 150
   evoChainNumder: 38
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0150
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 15
   type2: 0

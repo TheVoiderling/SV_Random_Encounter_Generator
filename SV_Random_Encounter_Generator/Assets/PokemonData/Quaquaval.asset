@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Quaquaval
   pokedexNumber: 914
   evoChainNumder: 213
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0914
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 18
   type2: 6

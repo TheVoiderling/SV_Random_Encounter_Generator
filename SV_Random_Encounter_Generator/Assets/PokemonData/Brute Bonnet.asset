@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Brute Bonnet
   pokedexNumber: 986
   evoChainNumder: 252
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0986
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 10
   type2: 2

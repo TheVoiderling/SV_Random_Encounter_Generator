@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Abomasnow
   pokedexNumber: 460
   evoChainNumder: 107
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0460
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 10
   type2: 12

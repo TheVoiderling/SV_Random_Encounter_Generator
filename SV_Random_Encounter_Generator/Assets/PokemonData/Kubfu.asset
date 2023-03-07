@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Kubfu
   pokedexNumber: 891
   evoChainNumder: 204
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0891
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 6
   type2: 0

@@ -9,7 +9,7 @@ using UnityEditor;
 public class DataGenerator
 {
     private static string _dataCSVPath = "/Editor/CSVs/Pokemon SV Data - Data.csv";
-    private static int numberOfColloums = 9;
+    private static int numberOfColloums = 11;
 
     [MenuItem("Utilities/Generate Pokeomn Data")]
     public static void GenerateDataObjects()
@@ -53,6 +53,8 @@ public class DataGenerator
                 pokemon.isLegendary = ParseBinaryBool(splitData[6]);
                 pokemon.isParadox = ParseBinaryBool(splitData[7]);
                 pokemon.isNotInBaseGame = ParseBinaryBool(splitData[8]);
+                pokemon.regionalFormNumber = int.Parse(splitData[9]);
+                pokemon.specialFormNumber = int.Parse(splitData[10]);
                 FindIcon(pokemon);
                 AssetDatabase.CreateAsset(pokemon, $"Assets/PokemonData/{pokemon.pokemonName}.asset");
                 database.database.Add(pokemon);
@@ -165,11 +167,9 @@ public class DataGenerator
     public static void FindIcon(PokemonData pokemonData)
     {
         pokemonData.formattedPokedexNumber = pokemonData.pokedexNumber.ToString("0000");
-        pokemonData.icon = Resources.Load<Sprite>("Sprites/Big/pm" + pokemonData.formattedPokedexNumber + "_00_00_00_big");
-        if (pokemonData.icon == null)
-        {
-            pokemonData.icon = Resources.Load<Sprite>("Sprites/Big/pm" + pokemonData.formattedPokedexNumber + "_11_00_00_big");
-        }
+        pokemonData.formattedRegionNumber = pokemonData.regionalFormNumber.ToString("00");
+        pokemonData.formattedFormNumber = pokemonData.specialFormNumber.ToString("00");
+        pokemonData.icon = Resources.Load<Sprite>("Sprites/Big/pm" + pokemonData.formattedPokedexNumber + "_" + pokemonData.formattedFormNumber + "_" + pokemonData.formattedRegionNumber + "_00_big");
         if (pokemonData.icon == null)
         {
             pokemonData.icon = Resources.Load<Sprite>("Sprites/Big/pm0000_00_00_00_big");

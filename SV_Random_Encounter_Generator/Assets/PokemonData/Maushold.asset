@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Maushold
   pokedexNumber: 925
   evoChainNumder: 218
+  regionalFormNumber: 0
+  specialFormNumber: 11
   formattedPokedexNumber: 0925
+  formattedRegionNumber: 00
+  formattedFormNumber: 11
   isMonoType: 1
   type1: 13
   type2: 0

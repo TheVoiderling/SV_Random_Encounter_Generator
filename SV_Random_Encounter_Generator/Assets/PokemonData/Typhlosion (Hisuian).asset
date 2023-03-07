@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Typhlosion (Hisuian)
   pokedexNumber: 157
   evoChainNumder: 40
+  regionalFormNumber: 41
+  specialFormNumber: 0
   formattedPokedexNumber: 0157
+  formattedRegionNumber: 41
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 7
   type2: 9
@@ -24,6 +28,6 @@ MonoBehaviour:
   isLegendary: 0
   isParadox: 0
   isNotInBaseGame: 1
-  icon: {fileID: 21300000, guid: dac7c43dd0e0f684cbb7352e0e8df3c7, type: 3}
+  icon: {fileID: 21300000, guid: 84bff055de6f8604994cf88e33a557e3, type: 3}
   defaulticonPath: Sprites/Big/pm0000_00_00_00_big
   iconPath: 

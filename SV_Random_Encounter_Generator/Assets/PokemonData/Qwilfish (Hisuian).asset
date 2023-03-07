@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Qwilfish (Hisuian)
   pokedexNumber: 211
   evoChainNumder: 55
+  regionalFormNumber: 41
+  specialFormNumber: 0
   formattedPokedexNumber: 0211
+  formattedRegionNumber: 41
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 18
   type2: 14
@@ -24,6 +28,6 @@ MonoBehaviour:
   isLegendary: 0
   isParadox: 0
   isNotInBaseGame: 1
-  icon: {fileID: 21300000, guid: 422b368324daefe49b57f85c632d63be, type: 3}
+  icon: {fileID: 21300000, guid: 3ebe1aa8a6fd2454d98da2aa16c1f33e, type: 3}
   defaulticonPath: Sprites/Big/pm0000_00_00_00_big
   iconPath: 

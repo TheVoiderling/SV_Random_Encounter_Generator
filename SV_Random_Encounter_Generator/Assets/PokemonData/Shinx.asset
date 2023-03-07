@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Shinx
   pokedexNumber: 403
   evoChainNumder: 93
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0403
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 4
   type2: 0

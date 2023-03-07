@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Tarountula
   pokedexNumber: 917
   evoChainNumder: 215
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0917
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 1
   type2: 0

@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Clawitzer
   pokedexNumber: 693
   evoChainNumder: 150
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0693
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 18
   type2: 0

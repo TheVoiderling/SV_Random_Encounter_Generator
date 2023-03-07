@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Iron Bundle
   pokedexNumber: 991
   evoChainNumder: 257
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0991
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 12
   type2: 18

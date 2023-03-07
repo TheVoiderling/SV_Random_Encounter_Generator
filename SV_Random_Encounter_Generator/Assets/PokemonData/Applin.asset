@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Applin
   pokedexNumber: 840
   evoChainNumder: 186
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0840
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 10
   type2: 3

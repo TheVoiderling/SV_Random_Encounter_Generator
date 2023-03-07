@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Fidough
   pokedexNumber: 926
   evoChainNumder: 219
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0926
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 5
   type2: 0

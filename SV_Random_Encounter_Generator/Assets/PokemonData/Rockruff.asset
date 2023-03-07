@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Rockruff
   pokedexNumber: 744
   evoChainNumder: 165
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0744
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 16
   type2: 0

@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Tinkaton
   pokedexNumber: 959
   evoChainNumder: 235
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0959
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 5
   type2: 17

@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Crogunk
   pokedexNumber: 453
   evoChainNumder: 105
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0453
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 14
   type2: 6

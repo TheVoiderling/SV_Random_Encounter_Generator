@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Orthworm
   pokedexNumber: 968
   evoChainNumder: 241
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0968
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 17
   type2: 0

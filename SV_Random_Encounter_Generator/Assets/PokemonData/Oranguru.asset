@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Oranguru
   pokedexNumber: 765
   evoChainNumder: 172
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0765
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 13
   type2: 15

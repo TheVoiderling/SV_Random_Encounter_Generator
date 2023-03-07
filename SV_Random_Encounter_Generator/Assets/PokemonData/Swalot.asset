@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Swalot
   pokedexNumber: 317
   evoChainNumder: 73
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0317
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 14
   type2: 0

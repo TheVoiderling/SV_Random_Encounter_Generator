@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Mudbray
   pokedexNumber: 749
   evoChainNumder: 168
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0749
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 11
   type2: 0

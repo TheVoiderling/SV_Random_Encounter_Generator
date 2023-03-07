@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Finneon
   pokedexNumber: 456
   evoChainNumder: 106
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0456
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 18
   type2: 0

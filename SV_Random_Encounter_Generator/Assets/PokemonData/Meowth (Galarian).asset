@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Meowth (Galarian)
   pokedexNumber: 52
   evoChainNumder: 8
+  regionalFormNumber: 31
+  specialFormNumber: 0
   formattedPokedexNumber: 0052
+  formattedRegionNumber: 31
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 17
   type2: 0
@@ -24,6 +28,6 @@ MonoBehaviour:
   isLegendary: 0
   isParadox: 0
   isNotInBaseGame: 0
-  icon: {fileID: 21300000, guid: 7503b843af187924487511d9cef96f4d, type: 3}
+  icon: {fileID: 21300000, guid: 895a4c17e8e679449991ff27cc3f040e, type: 3}
   defaulticonPath: Sprites/Big/pm0000_00_00_00_big
   iconPath: 

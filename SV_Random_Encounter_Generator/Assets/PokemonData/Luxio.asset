@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Luxio
   pokedexNumber: 404
   evoChainNumder: 93
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0404
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 4
   type2: 0

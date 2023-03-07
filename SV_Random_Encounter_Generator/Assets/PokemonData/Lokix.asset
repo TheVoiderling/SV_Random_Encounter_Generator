@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Lokix
   pokedexNumber: 920
   evoChainNumder: 216
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0920
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 1
   type2: 2

@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Pawmot
   pokedexNumber: 923
   evoChainNumder: 217
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0923
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 4
   type2: 6

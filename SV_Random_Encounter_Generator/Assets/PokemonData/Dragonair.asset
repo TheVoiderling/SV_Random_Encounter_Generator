@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Dragonair
   pokedexNumber: 148
   evoChainNumder: 37
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0148
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 3
   type2: 0

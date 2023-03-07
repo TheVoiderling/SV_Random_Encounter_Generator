@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Skrelp
   pokedexNumber: 690
   evoChainNumder: 149
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0690
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 14
   type2: 18

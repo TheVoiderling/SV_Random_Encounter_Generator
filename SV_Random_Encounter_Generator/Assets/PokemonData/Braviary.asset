@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Braviary
   pokedexNumber: 628
   evoChainNumder: 133
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0628
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 13
   type2: 8

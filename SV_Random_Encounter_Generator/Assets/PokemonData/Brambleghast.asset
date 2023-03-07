@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Brambleghast
   pokedexNumber: 947
   evoChainNumder: 229
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0947
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 10
   type2: 9

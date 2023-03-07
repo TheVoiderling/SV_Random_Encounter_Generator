@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Bergmite
   pokedexNumber: 712
   evoChainNumder: 156
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0712
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 12
   type2: 0

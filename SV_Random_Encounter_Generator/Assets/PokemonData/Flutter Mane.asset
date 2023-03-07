@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Flutter Mane
   pokedexNumber: 987
   evoChainNumder: 253
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0987
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 9
   type2: 5

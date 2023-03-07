@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Delibird
   pokedexNumber: 225
   evoChainNumder: 60
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0225
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 12
   type2: 8

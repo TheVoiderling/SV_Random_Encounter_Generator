@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Klawf
   pokedexNumber: 950
   evoChainNumder: 273
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0950
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 16
   type2: 0

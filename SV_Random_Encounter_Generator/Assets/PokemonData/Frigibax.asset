@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Frigibax
   pokedexNumber: 996
   evoChainNumder: 261
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0996
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 3
   type2: 12

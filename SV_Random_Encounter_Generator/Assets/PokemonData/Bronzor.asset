@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Bronzor
   pokedexNumber: 436
   evoChainNumder: 100
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0436
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 17
   type2: 15

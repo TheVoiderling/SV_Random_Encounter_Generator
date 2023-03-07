@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Lucario
   pokedexNumber: 448
   evoChainNumder: 103
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0448
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 6
   type2: 17

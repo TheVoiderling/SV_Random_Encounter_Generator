@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Shroodle
   pokedexNumber: 944
   evoChainNumder: 228
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0944
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 14
   type2: 13

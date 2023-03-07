@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Skwovet
   pokedexNumber: 819
   evoChainNumder: 182
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0819
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 13
   type2: 0

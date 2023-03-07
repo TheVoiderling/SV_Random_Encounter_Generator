@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Iron Leaves
   pokedexNumber: 1010
   evoChainNumder: 272
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 1010
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 10
   type2: 15

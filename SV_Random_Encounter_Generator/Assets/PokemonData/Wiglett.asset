@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Wiglett
   pokedexNumber: 960
   evoChainNumder: 236
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0960
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 18
   type2: 0

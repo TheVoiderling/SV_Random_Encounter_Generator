@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Oricirio (Baile)
   pokedexNumber: 741
   evoChainNumder: 164
+  regionalFormNumber: 0
+  specialFormNumber: 11
   formattedPokedexNumber: 0741
+  formattedRegionNumber: 00
+  formattedFormNumber: 11
   isMonoType: 0
   type1: 7
   type2: 8

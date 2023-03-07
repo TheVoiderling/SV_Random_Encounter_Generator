@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Basculin
   pokedexNumber: 550
   evoChainNumder: 121
+  regionalFormNumber: 0
+  specialFormNumber: 11
   formattedPokedexNumber: 0550
+  formattedRegionNumber: 00
+  formattedFormNumber: 11
   isMonoType: 1
   type1: 18
   type2: 0

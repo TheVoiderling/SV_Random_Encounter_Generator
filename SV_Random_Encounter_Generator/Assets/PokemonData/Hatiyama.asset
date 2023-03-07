@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Hatiyama
   pokedexNumber: 297
   evoChainNumder: 70
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0297
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 6
   type2: 0

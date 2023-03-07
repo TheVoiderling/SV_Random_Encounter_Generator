@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Primape
   pokedexNumber: 57
   evoChainNumder: 11
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0057
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 6
   type2: 0

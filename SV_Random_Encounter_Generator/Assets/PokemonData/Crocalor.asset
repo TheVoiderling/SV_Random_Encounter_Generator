@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Crocalor
   pokedexNumber: 910
   evoChainNumder: 212
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0910
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 7
   type2: 0

@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Clodsire
   pokedexNumber: 980
   evoChainNumder: 46
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0980
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 14
   type2: 11

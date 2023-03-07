@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Greninja
   pokedexNumber: 658
   evoChainNumder: 143
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0658
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 18
   type2: 2
@@ -24,6 +28,6 @@ MonoBehaviour:
   isLegendary: 0
   isParadox: 0
   isNotInBaseGame: 1
-  icon: {fileID: 21300000, guid: a01759fd7483d594e87e63aa0eb36c8d, type: 3}
+  icon: {fileID: 21300000, guid: bfdc3ec480409b24e93536653de6ece9, type: 3}
   defaulticonPath: Sprites/Big/pm0000_00_00_00_big
   iconPath: 

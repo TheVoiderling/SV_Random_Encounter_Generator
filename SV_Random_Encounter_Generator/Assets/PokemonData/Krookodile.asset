@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Krookodile
   pokedexNumber: 553
   evoChainNumder: 122
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0553
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 11
   type2: 2

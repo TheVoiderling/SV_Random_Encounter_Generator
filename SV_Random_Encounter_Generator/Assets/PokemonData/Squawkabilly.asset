@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Squawkabilly
   pokedexNumber: 931
   evoChainNumder: 221
+  regionalFormNumber: 0
+  specialFormNumber: 11
   formattedPokedexNumber: 0931
+  formattedRegionNumber: 00
+  formattedFormNumber: 11
   isMonoType: 0
   type1: 13
   type2: 8

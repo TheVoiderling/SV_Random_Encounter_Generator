@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Larvesta
   pokedexNumber: 636
   evoChainNumder: 136
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0636
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 1
   type2: 7

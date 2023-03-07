@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Calyrex
   pokedexNumber: 898
   evoChainNumder: 209
+  regionalFormNumber: 0
+  specialFormNumber: 11
   formattedPokedexNumber: 0898
+  formattedRegionNumber: 00
+  formattedFormNumber: 11
   isMonoType: 0
   type1: 15
   type2: 10

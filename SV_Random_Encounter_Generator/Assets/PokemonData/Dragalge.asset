@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Dragalge
   pokedexNumber: 691
   evoChainNumder: 149
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0691
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 14
   type2: 3

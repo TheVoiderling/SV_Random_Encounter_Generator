@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Wingull
   pokedexNumber: 278
   evoChainNumder: 65
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0278
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 18
   type2: 8

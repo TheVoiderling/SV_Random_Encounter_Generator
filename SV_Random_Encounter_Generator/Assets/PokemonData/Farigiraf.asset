@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Farigiraf
   pokedexNumber: 981
   evoChainNumder: 50
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0981
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 13
   type2: 15

@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Iron Moth
   pokedexNumber: 994
   evoChainNumder: 274
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0994
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 7
   type2: 0

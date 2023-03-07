@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Frogadier
   pokedexNumber: 657
   evoChainNumder: 143
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0657
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 18
   type2: 0

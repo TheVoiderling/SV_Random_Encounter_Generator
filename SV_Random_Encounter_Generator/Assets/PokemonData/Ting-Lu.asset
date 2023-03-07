@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Ting-Lu
   pokedexNumber: 1003
   evoChainNumder: 265
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 1003
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 2
   type2: 11

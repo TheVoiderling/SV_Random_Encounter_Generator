@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Komala
   pokedexNumber: 775
   evoChainNumder: 175
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0775
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 13
   type2: 0

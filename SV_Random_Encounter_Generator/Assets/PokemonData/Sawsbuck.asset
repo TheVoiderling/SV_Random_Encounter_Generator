@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Sawsbuck
   pokedexNumber: 586
   evoChainNumder: 126
+  regionalFormNumber: 0
+  specialFormNumber: 11
   formattedPokedexNumber: 0586
+  formattedRegionNumber: 00
+  formattedFormNumber: 11
   isMonoType: 0
   type1: 13
   type2: 10

@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Cetoddle
   pokedexNumber: 974
   evoChainNumder: 245
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0974
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 12
   type2: 0

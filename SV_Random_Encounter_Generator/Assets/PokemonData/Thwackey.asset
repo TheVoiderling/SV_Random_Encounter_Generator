@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Thwackey
   pokedexNumber: 811
   evoChainNumder: 179
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0811
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 10
   type2: 0

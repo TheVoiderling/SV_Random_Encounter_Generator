@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Skunktank
   pokedexNumber: 435
   evoChainNumder: 99
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0435
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 14
   type2: 2

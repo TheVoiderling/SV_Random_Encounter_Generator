@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Ceruledge
   pokedexNumber: 937
   evoChainNumder: 223
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0937
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 7
   type2: 9

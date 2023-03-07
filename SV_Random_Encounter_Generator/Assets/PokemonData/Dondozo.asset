@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Dondozo
   pokedexNumber: 977
   evoChainNumder: 247
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0977
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 18
   type2: 0

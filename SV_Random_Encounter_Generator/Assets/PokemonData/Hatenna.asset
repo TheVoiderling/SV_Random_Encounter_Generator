@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Hatenna
   pokedexNumber: 856
   evoChainNumder: 191
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0856
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 15
   type2: 0

@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Cinderace
   pokedexNumber: 815
   evoChainNumder: 180
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0815
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 7
   type2: 0

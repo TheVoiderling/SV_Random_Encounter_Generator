@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Sunkern
   pokedexNumber: 191
   evoChainNumder: 45
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0191
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 10
   type2: 0

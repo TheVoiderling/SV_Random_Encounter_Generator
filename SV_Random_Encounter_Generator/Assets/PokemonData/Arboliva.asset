@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Arboliva
   pokedexNumber: 930
   evoChainNumder: 220
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0930
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 10
   type2: 13

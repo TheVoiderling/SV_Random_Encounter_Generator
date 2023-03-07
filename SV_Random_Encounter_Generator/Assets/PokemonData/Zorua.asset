@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Zorua
   pokedexNumber: 570
   evoChainNumder: 123
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0570
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 2
   type2: 0

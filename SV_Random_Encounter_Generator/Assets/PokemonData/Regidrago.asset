@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Regidrago
   pokedexNumber: 895
   evoChainNumder: 206
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0895
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 3
   type2: 0

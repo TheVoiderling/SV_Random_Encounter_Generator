@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Scovillain
   pokedexNumber: 952
   evoChainNumder: 231
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0952
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 10
   type2: 7

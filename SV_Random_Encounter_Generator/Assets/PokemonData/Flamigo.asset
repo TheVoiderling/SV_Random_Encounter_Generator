@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Flamigo
   pokedexNumber: 973
   evoChainNumder: 244
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0973
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 8
   type2: 6

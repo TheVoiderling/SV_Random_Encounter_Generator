@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Toxapex
   pokedexNumber: 748
   evoChainNumder: 167
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0748
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 14
   type2: 18

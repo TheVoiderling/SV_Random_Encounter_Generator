@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Venonat
   pokedexNumber: 48
   evoChainNumder: 4
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0048
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 1
   type2: 14

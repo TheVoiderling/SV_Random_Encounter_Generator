@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Morgrem
   pokedexNumber: 860
   evoChainNumder: 192
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0860
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 2
   type2: 5

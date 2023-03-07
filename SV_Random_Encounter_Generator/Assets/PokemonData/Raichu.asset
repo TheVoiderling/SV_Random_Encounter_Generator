@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Raichu
   pokedexNumber: 26
   evoChainNumder: 2
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 0026
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 1
   type1: 4
   type2: 0

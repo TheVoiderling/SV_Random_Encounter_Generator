@@ -15,7 +15,11 @@ MonoBehaviour:
   pokemonName: Walking Wake
   pokedexNumber: 1009
   evoChainNumder: 271
+  regionalFormNumber: 0
+  specialFormNumber: 0
   formattedPokedexNumber: 1009
+  formattedRegionNumber: 00
+  formattedFormNumber: 00
   isMonoType: 0
   type1: 18
   type2: 3
